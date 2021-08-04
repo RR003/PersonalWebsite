@@ -1,0 +1,94 @@
+@import "../../global.scss";
+
+.intro {
+  background-color: white;
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    flex: 0.25;
+
+    .imgContainer {
+      background-color: $mainColor;
+      border-radius: 80%;
+      display: flex;
+      width: 200%;
+      height: 100%;
+      justify-content: center;
+      align-items: flex-end;
+      float: right;
+    }
+  }
+  .right {
+    flex: 0.75;
+
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+
+      @include mobile {
+        padding-left: 0;
+        align-items: center;
+      }
+
+      h1 {
+        font-size: 60px;
+        margin: 10px 0;
+
+        @include mobile {
+          font-size: 40px;
+        }
+      }
+      h2 {
+        font-size: 35px;
+      }
+      h3 {
+        font-size: 30px;
+        max-width: 350px;
+        @include mobile {
+          font-size: 40px;
+        }
+
+        span {
+          font-size: inherit;
+          color: crimson;
+        }
+        border-bottom: ridge;
+      }
+      h4 {
+        max-width: 300px;
+        margin-top: 10px;
+        max-height: 400px;
+        @include mobile {
+          font-size: 15px;
+        }
+      }
+    }
+    a {
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+  .logos {
+    .logo {
+      margin-top: 25px;
+      width: 30px;
+      height: auto;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  }
+  .button {
+    margin-top: 25px;
+    width: 200px;
+  }
+}
