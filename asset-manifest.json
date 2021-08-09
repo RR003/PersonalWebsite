@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PersonalWebsite/static/css/main.b83fa217.chunk.css",
-    "main.js": "/PersonalWebsite/static/js/main.a6074ce6.chunk.js",
-    "main.js.map": "/PersonalWebsite/static/js/main.a6074ce6.chunk.js.map",
+    "main.js": "/PersonalWebsite/static/js/main.69a26eef.chunk.js",
+    "main.js.map": "/PersonalWebsite/static/js/main.69a26eef.chunk.js.map",
     "runtime-main.js": "/PersonalWebsite/static/js/runtime-main.da2c5f66.js",
     "runtime-main.js.map": "/PersonalWebsite/static/js/runtime-main.da2c5f66.js.map",
     "static/js/2.680868ba.chunk.js": "/PersonalWebsite/static/js/2.680868ba.chunk.js",
@@ -11,7 +11,6 @@
     "static/css/main.b83fa217.chunk.css.map": "/PersonalWebsite/static/css/main.b83fa217.chunk.css.map",
     "static/js/2.680868ba.chunk.js.LICENSE.txt": "/PersonalWebsite/static/js/2.680868ba.chunk.js.LICENSE.txt",
     "static/media/971.3d3ac1e5.jpg": "/PersonalWebsite/static/media/971.3d3ac1e5.jpg",
-    "static/media/ResearchPaper.f8ecad47.pdf": "/PersonalWebsite/static/media/ResearchPaper.f8ecad47.pdf",
     "static/media/linkedin.6314ff7f.png": "/PersonalWebsite/static/media/linkedin.6314ff7f.png",
     "static/media/memories.9cfa8a46.png": "/PersonalWebsite/static/media/memories.9cfa8a46.png",
     "static/media/resume.b122f10e.pdf": "/PersonalWebsite/static/media/resume.b122f10e.pdf",
@@ -21,6 +20,6 @@
     "static/js/runtime-main.da2c5f66.js",
     "static/js/2.680868ba.chunk.js",
     "static/css/main.b83fa217.chunk.css",
-    "static/js/main.a6074ce6.chunk.js"
+    "static/js/main.69a26eef.chunk.js"
   ]
 }
