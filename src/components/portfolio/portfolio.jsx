@@ -3,6 +3,9 @@ import { useState } from "react";
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/portfolioList";
 import { webPortfolio, AI, schoolPortfolio } from "../../data.js";
+import showbinge from "../../showbinge.png";
+import memories from "../../memories.png";
+import cse160 from "../../971.jpg";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("web");
@@ -11,6 +14,15 @@ export default function Portfolio() {
     { id: "web", title: "Web Applications" },
     { id: "school", title: "School Work" },
     { id: "ai", title: "Artificial Intelligence" },
+  ];
+
+  const array = [
+    showbinge,
+    "https://upandrunningdubai.com/wp-content/uploads/2021/07/ingredients-healthy-foods-selection_35641-2931.jpg",
+    "https://onlinetyping.org/typing-lessons/images/touch-typing-keyboard.png",
+    memories,
+    cse160,
+    "https://cdn3.vectorstock.com/i/1000x1000/98/97/audit-research-icon-flat-cartoon-paper-vector-23039897.jpg",
   ];
 
   useEffect(() => {
@@ -49,7 +61,7 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            <img src={d.img} alt="" onClick={() => goToLink(d.link)} />
+            <img src={array[d.img]} alt="" onClick={() => goToLink(d.link)} />
             <h3>{d.title}</h3>
           </div>
         ))}

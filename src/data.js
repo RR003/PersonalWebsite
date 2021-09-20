@@ -1,34 +1,41 @@
+import ResearchPaper from "./ResearchPaper.pdf";
+
 export const webPortfolio = [
   {
     id: 1,
     title: "ShowBinge",
-    img: "/assets/showbinge.png",
-    link: "https:showbinge.herokuapp.com",
+    img: 0,
+    link: "https://showbinge.herokuapp.com/",
   },
   {
     id: 2,
     title: "NutriCal",
-    img:
-      "https://upandrunningdubai.com/wp-content/uploads/2021/07/ingredients-healthy-foods-selection_35641-2931.jpg",
+    img: 1,
     link: "https://devpost.com/software/nutrical-0q4vrx",
   },
   {
     id: 3,
     title: "Touch Typer",
-    img:
-      "https://onlinetyping.org/typing-lessons/images/touch-typing-keyboard.png",
+    img: 2,
     link: "https://devpost.com/software/touch-typer",
   },
-  { id: 4, title: "Memories App", img: "/assets/memories.png" },
+  { id: 4, title: "Memories App", img: 3 },
 ];
 
 export const schoolPortfolio = [
   {
     id: 1,
     title: "CSE 160: OOP",
-    img: "/assets/971.jpg",
+    img: 4,
     link: "https://github.com/RR003/CSE160",
   },
 ];
 
-export const AI = [];
+export const AI = [
+  {
+    id: 1,
+    title: "HS Research Paper",
+    img: 5,
+    link: { ResearchPaper },
+  },
+];
